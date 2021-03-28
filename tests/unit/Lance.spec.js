@@ -1,5 +1,5 @@
 import Lance from '@/components/Lance'
-import { createWrapper, mount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 
 describe('A bid without value minimum', () => {
     test('does not accept when bid less than zero', () => {
